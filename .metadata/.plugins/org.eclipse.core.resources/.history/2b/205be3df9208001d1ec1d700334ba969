@@ -1,0 +1,34 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * demo on "+" concatenation of two strings
+		 */
+		
+		String firstName = "Sally";
+		String lastName = "Smith";
+		System.out.println(firstName + " " + lastName);
+		
+		/*
+		 * runing the method we created "multiplyingString"
+		 */
+		String tripleHi = multiplyingString("Hi", 3);
+		System.out.println(tripleHi);
+		
+		
+		/*
+		 * another example is a string that gets concatenated to itself
+		 */
+		public static String multiplyingString (String str, int num) {
+			String = " ";
+			for (int i = 0; i < num; i++) {
+				result += str;
+			}
+			return result;
+		}
+	
+
+	}
+
+}

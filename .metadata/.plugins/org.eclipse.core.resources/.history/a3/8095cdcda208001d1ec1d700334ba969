@@ -1,0 +1,46 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Collect {
+
+	public static void main(String[] args) {
+		// A list is an interface
+		// Arraylist is type of a list, an implementation of a list
+		// A list is a type of collections
+		// Commonly used collections
+		// 3 SUBSETS: list, sets, maps
+		
+		
+		/*
+		 * LIST 
+		 * allows duplicates
+		 * sequence of entry is organized by an index and kept and accessed similar to an array
+		 * allows null values
+		 * Common implementations: ArrayList, LinkedList, Vector
+		 * 
+		 */		
+		List<String> students = new ArrayList<String>();
+		students.add("Rob");
+		students.add("Rob");
+		students.add("Sam");
+		students.add(null); 
+		
+		for (String student : students) {
+			System.out.println(student);  // clearly LISTS allows duplicates
+		}
+		
+		System.out.println(students.get(2)); // Sam
+		System.out.println(students.get(0)); // Rob
+		
+		// SET
+		
+		
+		
+		
+		
+		// MAP
+		
+
+	}
+
+}

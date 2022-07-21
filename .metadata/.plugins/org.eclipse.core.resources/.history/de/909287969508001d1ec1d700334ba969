@@ -1,0 +1,39 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * demo on "+" concatenation of two strings
+		 */
+		
+		String firstName = "Sally";
+		String lastName = "Smith";
+		System.out.println(firstName + " " + lastName);
+		
+		/*
+		 * runing the method we created "multiplyingString"
+		 */
+		String tripleHi = multiplyingString("Hi", 3);
+		System.out.println(tripleHi);
+		
+		System.out.println(firstName.concat(lastName));
+		System.out.println(firstName); // this line hasn't changed the value of the firstName, it still Sally, it doesn't change
+		// the value. STRINGS ARE IMMUTABLE.
+		
+		
+		
+		}
+	/*
+	 * another example is a string that gets concatenated to itself
+	 */
+	
+	public static String multiplyingString(String str, int num) {
+		String result= "";
+		for (int i = 0; i < num; i++) {
+			result += str;
+		}
+		return result;
+
+	}
+
+}

@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// Arrays have pros and cons depending on what you use them for
+		// Arrays require their size set
+		// they can't increase or decrease their size
+		// you must reference the index of an array to manipulate any element of the array
+		
+		String[] cars = new String[3];
+		cars[0] = "Camaro";
+		cars[1] = "F150";
+		cars[2] = "Mustang";
+		
+		// unable to add a value at any index
+		
+		// A LIST is a different data structure like an array allows to store data together
+		// like an array but overcomes some limitations of an array
+		// A list is an interface (can't create an object from a list 
+		// but from a class that implements a list
+		// SYNTAX: List<data type> variable name = new <data type>; 
+		// IMPORT : java.util.List; java.util.ArrayList;
+		
+		List<String> sports = new ArrayList<String>;
+		
+
+	}
+
+}

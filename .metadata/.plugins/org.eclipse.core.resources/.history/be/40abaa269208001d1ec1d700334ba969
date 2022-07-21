@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * demo on "+" concatenation of two strings
+		 */
+		
+		String firstName = "Sally";
+		String lastName = "Smith";
+		System.out.println(firstName + " " + lastName);
+	
+
+	}
+
+}
