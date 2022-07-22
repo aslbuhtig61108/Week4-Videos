@@ -7,9 +7,7 @@ public class Menu2 {
 
 	static Scanner scanner = new Scanner(System.in);
 	static Map<String, String> phoneBook = new HashMap<String, String>();
-	
-	
-	
+		
 	public static void main(String[] args) {
 		/*
 		 * LIke we did with our student menu app, we are going to apply Maps
