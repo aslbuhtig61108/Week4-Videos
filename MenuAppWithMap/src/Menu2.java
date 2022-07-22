@@ -49,8 +49,8 @@ public class Menu2 {
 	
 	public static void displayPhoneBook() {
 		Set<String> phoneNumbers = phoneBook.keySet();
-		for (String number : phoneNumbers) {
-			System.out.println(number + " : " + phoneBook.get(phoneNumbers));
+		for (String phoneNumber : phoneNumbers) {
+			System.out.println(phoneNumber + " : " + phoneBook.get(phoneNumbers));
 		}
 	}
 	
